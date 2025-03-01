@@ -1,5 +1,7 @@
 public class helloWord{
 	public static void main(String[] args){
-		System.out.println("Hello word");
+		for(int a = 0; a<20000; a++){
+			System.out.println("Número "+a);
+		}
 	}
 }
